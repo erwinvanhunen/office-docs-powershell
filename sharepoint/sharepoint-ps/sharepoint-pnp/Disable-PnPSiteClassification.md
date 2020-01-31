@@ -1,10 +1,8 @@
 ---
 external help file:
-online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/disable-pnpsiteclassification
 applicable: SharePoint Online
 schema: 2.0.0
 ---
-
 # Disable-PnPSiteClassification
 
 ## SYNOPSIS

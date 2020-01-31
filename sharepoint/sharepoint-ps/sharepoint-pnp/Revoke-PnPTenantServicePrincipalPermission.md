@@ -1,16 +1,14 @@
 ---
 external help file:
-online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/revoke-pnptenantserviceprincipalpermission
 applicable: SharePoint Online
 schema: 2.0.0
 ---
-
 # Revoke-PnPTenantServicePrincipalPermission
 
 ## SYNOPSIS
 Revokes a permission that was previously granted to the "SharePoint Online Client" service principal.
 
-## SYNTAX
+## SYNTAX 
 
 ```powershell
 Revoke-PnPTenantServicePrincipalPermission -ObjectId <String>

@@ -1,16 +1,14 @@
 ---
 external help file:
-online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/export-pnpclientsidepagemapping
 applicable: SharePoint Online
 schema: 2.0.0
 ---
-
 # Export-PnPClientSidePageMapping
 
 ## SYNOPSIS
 Get's the built-in maping files or a custom mapping file for your publishing portal page layouts. These mapping files are used to tailor the page transformation experience.
 
-## SYNTAX
+## SYNTAX 
 
 ```powershell
 Export-PnPClientSidePageMapping [-BuiltInWebPartMapping [<SwitchParameter>]]
@@ -20,6 +18,7 @@ Export-PnPClientSidePageMapping [-BuiltInWebPartMapping [<SwitchParameter>]]
                                 [-AnalyzeOOBPageLayouts [<SwitchParameter>]]
                                 [-Folder <String>]
                                 [-Overwrite [<SwitchParameter>]]
+                                [-Logging [<SwitchParameter>]]
                                 [-Web <WebPipeBind>]
                                 [-Connection <SPOnlineConnection>]
 ```
@@ -102,6 +101,18 @@ The folder to created the mapping file(s) in
 
 ```yaml
 Type: String
+Parameter Sets: (All)
+
+Required: False
+Position: Named
+Accept pipeline input: False
+```
+
+### -Logging
+Outputs analyser logging to the console
+
+```yaml
+Type: SwitchParameter
 Parameter Sets: (All)
 
 Required: False

@@ -1,16 +1,14 @@
 ---
 external help file:
-online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/new-pnptenanttemplate
 applicable: SharePoint Online
 schema: 2.0.0
 ---
-
 # New-PnPTenantTemplate
 
 ## SYNOPSIS
 Creates a new tenant template object
 
-## SYNTAX
+## SYNTAX 
 
 ```powershell
 New-PnPTenantTemplate [-Author <String>]

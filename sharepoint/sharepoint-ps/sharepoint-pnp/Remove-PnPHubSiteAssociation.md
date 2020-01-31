@@ -1,16 +1,14 @@
 ---
 external help file:
-online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/remove-pnphubsiteassociation
 applicable: SharePoint Online
 schema: 2.0.0
 ---
-
 # Remove-PnPHubSiteAssociation
 
 ## SYNOPSIS
 Disconnects a site from a hubsite.
 
-## SYNTAX
+## SYNTAX 
 
 ```powershell
 Remove-PnPHubSiteAssociation -Site <SitePipeBind>

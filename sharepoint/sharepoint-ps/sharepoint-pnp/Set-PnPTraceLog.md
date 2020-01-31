@@ -1,21 +1,20 @@
 ---
 external help file:
-online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/set-pnptracelog
 applicable: SharePoint Server 2013, SharePoint Server 2016, SharePoint Server 2019, SharePoint Online
 schema: 2.0.0
 ---
-
 # Set-PnPTraceLog
 
 ## SYNOPSIS
 Turn log tracing on or off
 
-## SYNTAX
+## SYNTAX 
 
 ### On
 ```powershell
 Set-PnPTraceLog -On [<SwitchParameter>]
                 [-LogFile <String>]
+                [-WriteToConsole [<SwitchParameter>]]
                 [-Level <LogLevel>]
                 [-Delimiter <String>]
                 [-IndentSize <Int>]
@@ -142,6 +141,18 @@ Type: SwitchParameter
 Parameter Sets: On
 
 Required: True
+Position: Named
+Accept pipeline input: False
+```
+
+### -WriteToConsole
+Turn on console trace output.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: On
+
+Required: False
 Position: Named
 Accept pipeline input: False
 ```

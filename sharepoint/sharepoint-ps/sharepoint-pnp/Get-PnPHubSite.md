@@ -1,16 +1,14 @@
 ---
 external help file:
-online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/get-pnphubsite
 applicable: SharePoint Online
 schema: 2.0.0
 ---
-
 # Get-PnPHubSite
 
 ## SYNOPSIS
 Retrieve all or a specific hubsite.
 
-## SYNTAX
+## SYNTAX 
 
 ```powershell
 Get-PnPHubSite [-Connection <SPOnlineConnection>]

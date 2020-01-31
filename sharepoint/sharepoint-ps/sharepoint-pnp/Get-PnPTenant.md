@@ -1,16 +1,14 @@
 ---
 external help file:
-online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/get-pnptenant
 applicable: SharePoint Online
 schema: 2.0.0
 ---
-
 # Get-PnPTenant
 
 ## SYNOPSIS
 Returns organization-level site collection properties
 
-## SYNTAX
+## SYNTAX 
 
 ```powershell
 Get-PnPTenant [-Connection <SPOnlineConnection>]

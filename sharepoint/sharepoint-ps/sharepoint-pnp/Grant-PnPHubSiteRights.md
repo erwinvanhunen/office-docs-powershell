@@ -1,16 +1,14 @@
 ---
 external help file:
-online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/grant-pnphubsiterights
 applicable: SharePoint Online
 schema: 2.0.0
 ---
-
 # Grant-PnPHubSiteRights
 
 ## SYNOPSIS
 Grant additional permissions to the permissions already in place to associate sites to Hub Sites for one or more specific users
 
-## SYNTAX
+## SYNTAX 
 
 ```powershell
 Grant-PnPHubSiteRights [-Connection <SPOnlineConnection>]

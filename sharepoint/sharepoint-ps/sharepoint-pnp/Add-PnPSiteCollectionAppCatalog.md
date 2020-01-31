@@ -1,16 +1,14 @@
 ---
 external help file:
-online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/add-pnpsitecollectionappcatalog
 applicable: SharePoint Online
 schema: 2.0.0
 ---
-
 # Add-PnPSiteCollectionAppCatalog
 
 ## SYNOPSIS
 Adds a Site Collection scoped App Catalog to a site
 
-## SYNTAX
+## SYNTAX 
 
 ```powershell
 Add-PnPSiteCollectionAppCatalog -Site <SitePipeBind>

@@ -1,16 +1,14 @@
 ---
 external help file:
-online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/remove-pnpsitecollectionappcatalog
 applicable: SharePoint Online
 schema: 2.0.0
 ---
-
 # Remove-PnPSiteCollectionAppCatalog
 
 ## SYNOPSIS
 Removes a Site Collection scoped App Catalog from a site
 
-## SYNTAX
+## SYNTAX 
 
 ```powershell
 Remove-PnPSiteCollectionAppCatalog -Site <SitePipeBind>
@@ -24,7 +22,7 @@ Notice that this will not remove the App Catalog list and its contents from the 
 
 ### ------------------EXAMPLE 1------------------
 ```powershell
-Remove-PnPOffice365GroupToSite -Url "https://contoso.sharepoint.com/sites/FinanceTeamsite"
+Remove-PnPSiteCollectionAppCatalog -Site "https://contoso.sharepoint.com/sites/FinanceTeamsite"
 ```
 
 This will remove a SiteCollection app catalog from the specified site

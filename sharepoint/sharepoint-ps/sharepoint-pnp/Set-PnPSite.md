@@ -1,16 +1,14 @@
 ---
 external help file:
-online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/set-pnpsite
 applicable: SharePoint Online
 schema: 2.0.0
 ---
-
 # Set-PnPSite
 
 ## SYNOPSIS
 Sets Site Collection properties.
 
-## SYNTAX
+## SYNTAX 
 
 ### Set Properties
 ```powershell

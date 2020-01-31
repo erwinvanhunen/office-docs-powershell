@@ -1,16 +1,14 @@
 ---
 external help file:
-online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/sync-pnpapptoteams
 applicable: SharePoint Online
 schema: 2.0.0
 ---
-
 # Sync-PnPAppToTeams
 
 ## SYNOPSIS
 Synchronize an app from the tenant app catalog to the Microsoft Teams app catalog
 
-## SYNTAX
+## SYNTAX 
 
 ```powershell
 Sync-PnPAppToTeams -Identity <AppMetadataPipeBind>

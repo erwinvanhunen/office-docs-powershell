@@ -1,22 +1,21 @@
 ---
 external help file:
-online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/export-pnpclientsidepage
 applicable: SharePoint Online
 schema: 2.0.0
 ---
-
 # Export-PnPClientSidePage
 
 ## SYNOPSIS
 Exports a Client Side Page to a PnP Provisioning Template
 
-## SYNTAX
+## SYNTAX 
 
 ```powershell
 Export-PnPClientSidePage -Identity <ClientSidePagePipeBind>
                          [-PersistBrandingFiles [<SwitchParameter>]]
                          [-Out <String>]
                          [-Force [<SwitchParameter>]]
+                         [-Configuration <ExtractConfigurationPipeBind>]
                          [-Web <WebPipeBind>]
                          [-Connection <SPOnlineConnection>]
 ```
@@ -25,12 +24,24 @@ Export-PnPClientSidePage -Identity <ClientSidePagePipeBind>
 
 ### ------------------EXAMPLE 1------------------
 ```powershell
-Export-PnPClientSidePage -Identity Home.aspx
+Export-PnPClientSidePage -Identity Home.aspx 
 ```
 
 Exports the page 'Home.aspx' to a new PnP Provisioning Template
 
 ## PARAMETERS
+
+### -Configuration
+Specify a JSON configuration file to configure the extraction progress.
+
+```yaml
+Type: ExtractConfigurationPipeBind
+Parameter Sets: (All)
+
+Required: False
+Position: Named
+Accept pipeline input: False
+```
 
 ### -Force
 Specify to override the question to overwrite a file if it already exists.

@@ -1,16 +1,14 @@
 ---
 external help file:
-online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/get-pnpuser
 applicable: SharePoint Server 2013, SharePoint Server 2016, SharePoint Server 2019, SharePoint Online
 schema: 2.0.0
 ---
-
 # Get-PnPUser
 
 ## SYNOPSIS
 Returns site users of current web
 
-## SYNTAX
+## SYNTAX 
 
 ```powershell
 Get-PnPUser [-Identity <UserPipeBind>]
@@ -20,7 +18,7 @@ Get-PnPUser [-Identity <UserPipeBind>]
 ```
 
 ## DESCRIPTION
-This command will return all the users that exist in the current site collection its User Information List
+This command will return all users that exist in the current site collection's User Information List
 
 ## EXAMPLES
 
@@ -40,7 +38,7 @@ Returns the user with Id 23 from the User Information List of the current site c
 
 ### ------------------EXAMPLE 3------------------
 ```powershell
-Get-PnPUser -Identity i:0#.f|membership|user@tenant.onmicrosoft.com
+Get-PnPUser -Identity "i:0#.f|membership|user@tenant.onmicrosoft.com"
 ```
 
 Returns the user with LoginName i:0#.f|membership|user@tenant.onmicrosoft.com from the User Information List of the current site collection

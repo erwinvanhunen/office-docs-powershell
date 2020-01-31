@@ -1,16 +1,14 @@
 ---
 external help file:
-online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/add-pnpclientsidewebpart
-applicable: SharePoint Online
+applicable: SharePoint Online, SharePoint 2019
 schema: 2.0.0
 ---
-
 # Add-PnPClientSideWebPart
 
 ## SYNOPSIS
 Adds a Client-Side Web Part to a client-side page
 
-## SYNTAX
+## SYNTAX 
 
 ### Default with built-in web part
 ```powershell
@@ -87,6 +85,8 @@ Adds a Client-Side component 'HelloWorld' to the page called 'MyPage' in section
 ### -Column
 Sets the column where to insert the web part control.
 
+Only applicable to: SharePoint Online, SharePoint Server 2019
+
 ```yaml
 Type: Int
 Parameter Sets: Positioned with built-in web part, Positioned with 3rd party web part
@@ -98,6 +98,8 @@ Accept pipeline input: False
 
 ### -Component
 Specifies the component instance or Id to add.
+
+Only applicable to: SharePoint Online, SharePoint Server 2019
 
 ```yaml
 Type: ClientSideComponentPipeBind
@@ -111,6 +113,8 @@ Accept pipeline input: False
 ### -DefaultWebPartType
 Defines a default web part type to insert.
 
+Only applicable to: SharePoint Online, SharePoint Server 2019
+
 ```yaml
 Type: DefaultClientSideWebParts
 Parameter Sets: Default with built-in web part, Positioned with built-in web part
@@ -122,6 +126,8 @@ Accept pipeline input: False
 
 ### -Order
 Sets the order of the web part control. (Default = 1)
+
+Only applicable to: SharePoint Online, SharePoint Server 2019
 
 ```yaml
 Type: Int
@@ -135,6 +141,8 @@ Accept pipeline input: False
 ### -Page
 The name of the page.
 
+Only applicable to: SharePoint Online, SharePoint Server 2019
+
 ```yaml
 Type: ClientSidePagePipeBind
 Parameter Sets: Default with built-in web part, Default with 3rd party web part, Positioned with built-in web part, Positioned with 3rd party web part
@@ -146,6 +154,8 @@ Accept pipeline input: True
 
 ### -Section
 Sets the section where to insert the web part control.
+
+Only applicable to: SharePoint Online, SharePoint Server 2019
 
 ```yaml
 Type: Int
@@ -159,6 +169,8 @@ Accept pipeline input: False
 ### -WebPartProperties
 The properties of the web part
 
+Only applicable to: SharePoint Online, SharePoint Server 2019
+
 ```yaml
 Type: PropertyBagPipeBind
 Parameter Sets: Default with built-in web part, Default with 3rd party web part, Positioned with built-in web part, Positioned with 3rd party web part
@@ -171,6 +183,8 @@ Accept pipeline input: False
 ### -Connection
 Optional connection to be used by the cmdlet. Retrieve the value for this parameter by either specifying -ReturnConnection on Connect-PnPOnline or by executing Get-PnPConnection.
 
+Only applicable to: SharePoint Online, SharePoint Server 2019
+
 ```yaml
 Type: SPOnlineConnection
 Parameter Sets: (All)
@@ -182,6 +196,8 @@ Accept pipeline input: False
 
 ### -Web
 This parameter allows you to optionally apply the cmdlet action to a subweb within the current web. In most situations this parameter is not required and you can connect to the subweb using Connect-PnPOnline instead. Specify the GUID, server relative url (i.e. /sites/team1) or web instance of the web to apply the command to. Omit this parameter to use the current web.
+
+Only applicable to: SharePoint Online, SharePoint Server 2019
 
 ```yaml
 Type: WebPipeBind

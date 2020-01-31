@@ -1,16 +1,14 @@
 ---
 external help file:
-online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/invoke-pnpsprestmethod
 applicable: SharePoint Online
 schema: 2.0.0
 ---
-
 # Invoke-PnPSPRestMethod
 
 ## SYNOPSIS
 Invokes a REST request towards a SharePoint site
 
-## SYNTAX
+## SYNTAX 
 
 ```powershell
 Invoke-PnPSPRestMethod -Url <String>

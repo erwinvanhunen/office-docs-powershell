@@ -1,16 +1,14 @@
 ---
 external help file:
-online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/new-pnpupabulkimportjob
 applicable: SharePoint Online
 schema: 2.0.0
 ---
-
 # New-PnPUPABulkImportJob
 
 ## SYNOPSIS
 Submit up a new user profile bulk import job.
 
-## SYNTAX
+## SYNTAX 
 
 ```powershell
 New-PnPUPABulkImportJob -Folder <String>
@@ -28,7 +26,7 @@ See https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/bulk-user-
 
 ### ------------------EXAMPLE 1------------------
 ```powershell
-@"
+@" 
  {
   "value": [
     {
@@ -38,7 +36,7 @@ See https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/bulk-user-
 	{
       "IdName": "vesaj@contoso.com",
       "Department": "PnP",
-    }
+    }    
   ]
 }
 "@ > profiles.json

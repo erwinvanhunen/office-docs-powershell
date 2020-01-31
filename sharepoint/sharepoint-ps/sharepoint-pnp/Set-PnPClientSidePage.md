@@ -1,16 +1,14 @@
 ---
 external help file:
-online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/set-pnpclientsidepage
 applicable: SharePoint Online, SharePoint 2019
 schema: 2.0.0
 ---
-
 # Set-PnPClientSidePage
 
 ## SYNOPSIS
 Sets parameters of a Client-Side Page
 
-## SYNTAX
+## SYNTAX 
 
 ### Custom Header
 ```powershell
@@ -26,6 +24,7 @@ Set-PnPClientSidePage -Identity <ClientSidePagePipeBind>
                       [-Publish [<SwitchParameter>]]
                       [-HeaderType <ClientSidePageHeaderType>]
                       [-ContentType <ContentTypePipeBind>]
+                      [-ThumbnailUrl <String>]
                       [-Web <WebPipeBind>]
                       [-Connection <SPOnlineConnection>]
 ```
@@ -199,6 +198,20 @@ Parameter Sets: Custom Header
 
 Required: False
 Position: 0
+Accept pipeline input: False
+```
+
+### -ThumbnailUrl
+Thumbnail Url
+
+Only applicable to: SharePoint Online, SharePoint Server 2019
+
+```yaml
+Type: String
+Parameter Sets: (All)
+
+Required: False
+Position: Named
 Accept pipeline input: False
 ```
 
